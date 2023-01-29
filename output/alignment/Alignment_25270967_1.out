@@ -1,0 +1,19 @@
+Array task #1
+data/filtered_pooled//p12_18C_R1_11051_pooled.filtered.fastq.gz
+Starting hisat for sample: p12_18C_R1_11051_pooled
+---------------------
+31976112 reads; of these:
+  31976112 (100.00%) were unpaired; of these:
+    719386 (2.25%) aligned 0 times
+    30608359 (95.72%) aligned exactly 1 time
+    648367 (2.03%) aligned >1 times
+97.75% overall alignment rate
+Saved aligned file to  results/pooled//hisat-alignment/sam-output/p12_18C_R1_11051_pooled.hisat2.sam
+---------------------
+
+CommandNotFoundError: No command 'conda activat'.
+Did you mean 'conda activate'?
+
+Sorting aligned files by read name, using samtools...
+/var/spool/slurmd/job25270967/slurm_script: line 89: samtools: command not found
+samtools failed

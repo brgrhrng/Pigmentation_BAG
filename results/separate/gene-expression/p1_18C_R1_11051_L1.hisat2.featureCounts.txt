@@ -1,0 +1,2 @@
+# Program:featureCounts v2.0.1; Command:"featureCounts" "-T" "8" "-t" "exon" "-g" "gene_symbol" "-Q" "20" "-a" "/panfs/pfs.local/scratch/sjmac/bgroharing_sta/Pigmentation_Project/data/ref_hisat2/dmel-all-r6.39.gtf" "-o" "results/separate//gene-expression/p1_18C_R1_11051_L1.hisat2.featureCounts.txt" "results/separate//hisat-alignment/sorted-bam/p1_18C_R1_11051_L1.hisat2.bam" 
+Geneid	Chr	Start	End	Strand	Length	results/separate//hisat-alignment/sorted-bam/p1_18C_R1_11051_L1.hisat2.bam

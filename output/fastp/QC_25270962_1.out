@@ -1,0 +1,35 @@
+Array task #1
+data/raw_pooled//p12_18C_R1_11051_pooled.fastq.gz
+p12_18C_R1_11051_pooled
+Detecting adapter sequence for read1...
+GTCCTTTCGTACTAAAATATCACAATTTTTTAAAGATAGAAACCAACCTGGCTTACACCG
+
+Read1 before filtering:
+total reads: 32232518
+total bases: 1643858418
+Q20 bases: 1629304034(99.1146%)
+Q30 bases: 1601557867(97.4268%)
+
+Read1 after filtering:
+total reads: 31976112
+total bases: 1609832325
+Q20 bases: 1603008678(99.5761%)
+Q30 bases: 1582047933(98.2741%)
+
+Filtering result:
+reads passed filter: 31976112
+reads failed due to low quality: 9
+reads failed due to too many N: 48
+reads failed due to too short: 256349
+reads with adapter trimmed: 322171
+bases trimmed due to adapters: 13087520
+
+Duplication rate (may be overestimated since this is SE data): 57.8072%
+
+JSON report: results/pooled/fastp-reports//json/p12_18C_R1_11051_pooled.fastp.json
+HTML report: results/pooled/fastp-reports//p12_18C_R1_11051_pooled.fastp-report.html
+
+fastp -i data/raw_pooled//p12_18C_R1_11051_pooled.fastq.gz -o data/filtered_pooled//p12_18C_R1_11051_pooled.filtered.fastq.gz --html results/pooled/fastp-reports//p12_18C_R1_11051_pooled.fastp-report.html --json results/pooled/fastp-reports//json/p12_18C_R1_11051_pooled.fastp.json --thread 8 --detect_adapter_for_pe --cut_tail --cut_window_size 5 --cut_mean_quality 30 --overrepresentation_analysis 
+fastp v0.20.1, time used: 125 seconds
+---------------------
+DONE.

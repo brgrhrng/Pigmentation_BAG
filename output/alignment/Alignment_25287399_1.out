@@ -1,0 +1,14 @@
+Array task #1
+data/filtered_separate//p12_18C_R1_11051_L1.filtered.fastq.gz
+Starting hisat for sample: p12_18C_R1_11051_L1
+---------------------
+Saved aligned file to  results/separate//hisat-alignment/sam-output/p12_18C_R1_11051_L1.hisat2.sam
+---------------------
+Sorting aligned files by read name, using samtools...
+Saved sorted .bam file to  results/separate//hisat-alignment/sorted-bam/p12_18C_R1_11051_L1.hisat2.bam
+---------------------
+Quantifying expression, using featureCounts from subread...
+Saved transcript counts to  results/separate//gene-expression/p12_18C_R1_11051_L1.hisat2.featureCounts.txt
+Saved trimmed down version to  results/separate//gene-expression/p12_18C_R1_11051_L1.hisat2.featureCounts.txt.trim
+---------------------
+DONE.

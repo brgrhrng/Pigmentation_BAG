@@ -1,0 +1,12 @@
+Array task #1
+/panfs/pfs.local/scratch/sjmac/bgroharing_sta/Pigmentation_Project/data/filtered/p12_18C_R1_11051_L1.filtered.fastq.gz
+Starting hisat for sample: p12_18C_R1_11051_L1
+---------------------
+7914364 reads; of these:
+  7914364 (100.00%) were unpaired; of these:
+    174597 (2.21%) aligned 0 times
+    7583827 (95.82%) aligned exactly 1 time
+    155940 (1.97%) aligned >1 times
+97.79% overall alignment rate
+---------------------
+DONE.

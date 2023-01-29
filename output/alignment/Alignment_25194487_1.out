@@ -1,0 +1,6 @@
+Array task #1
+
+ls: cannot access /*.fastq.gz: No such file or directory
+Starting hisat for sample: .fastq.gz
+---------------------
+DONE.

@@ -1,0 +1,33 @@
+Array task #369
+/panfs/pfs.local/scratch/sjmac/bgroharing_sta/Pigmentation_Project/data/raw_data/p7_25C_R3_11277_L1.fastq.gz
+p7_25C_R3_11277_L1
+Detecting adapter sequence for read1...
+No adapter detected for read1
+
+Read1 before filtering:
+total reads: 7361134
+total bases: 375417834
+Q20 bases: 370761204(98.7596%)
+Q30 bases: 360663954(96.07%)
+
+Read1 after filtering:
+total reads: 7355815
+total bases: 368156769
+Q20 bases: 365892061(99.3849%)
+Q30 bases: 358161055(97.2849%)
+
+Filtering result:
+reads passed filter: 7355815
+reads failed due to low quality: 0
+reads failed due to too many N: 32
+reads failed due to too short: 5287
+reads with adapter trimmed: 0
+bases trimmed due to adapters: 0
+
+Duplication rate (may be overestimated since this is SE data): 45.7203%
+
+JSON report: /panfs/pfs.local/scratch/sjmac/bgroharing_sta/Pigmentation_Project/fastp-reports/json/p7_25C_R3_11277_L1.fastp.json
+HTML report: /panfs/pfs.local/scratch/sjmac/bgroharing_sta/Pigmentation_Project/fastp-reports/p7_25C_R3_11277_L1.fastp-report.html
+
+fastp -i /panfs/pfs.local/scratch/sjmac/bgroharing_sta/Pigmentation_Project/data/raw_data/p7_25C_R3_11277_L1.fastq.gz -o /panfs/pfs.local/scratch/sjmac/bgroharing_sta/Pigmentation_Project/data/filtered/p7_25C_R3_11277_L1.filtered.fastq.gz --html /panfs/pfs.local/scratch/sjmac/bgroharing_sta/Pigmentation_Project/fastp-reports/p7_25C_R3_11277_L1.fastp-report.html --json /panfs/pfs.local/scratch/sjmac/bgroharing_sta/Pigmentation_Project/fastp-reports/json/p7_25C_R3_11277_L1.fastp.json --thread 8 --detect_adapter_for_pe --cut_tail --cut_window_size 5 --cut_mean_quality 30 --overrepresentation_analysis 
+fastp v0.20.1, time used: 35 seconds

@@ -1,0 +1,62 @@
+Array task #1
+data/filtered_pooled//p12_18C_R1_11051_pooled.filtered.fastq.gz
+Starting hisat for sample: p12_18C_R1_11051_pooled
+---------------------
+---------------------
+Sorting aligned files by read name, using samtools...
+[bam_sort_core] merging from 8 files and 8 in-memory blocks...
+Saved sorted .bam file to  results/pooled//hisat-alignment/sorted-bam/.hisat2.bam
+---------------------
+Quantifying expression, using featureCounts from subread...
+
+        ==========     _____ _    _ ____  _____  ______          _____  
+        =====         / ____| |  | |  _ \|  __ \|  ____|   /\   |  __ \ 
+          =====      | (___ | |  | | |_) | |__) | |__     /  \  | |  | |
+            ====      \___ \| |  | |  _ <|  _  /|  __|   / /\ \ | |  | |
+              ====    ____) | |__| | |_) | | \ \| |____ / ____ \| |__| |
+        ==========   |_____/ \____/|____/|_|  \_\______/_/    \_\_____/
+	  v2.0.1
+
+//========================== featureCounts setting ===========================\\
+||                                                                            ||
+||             Input files : 1 BAM file                                       ||
+||                           o .hisat2.bam                                    ||
+||                                                                            ||
+||             Output file : .hisat2.featureCounts.txt                        ||
+||                 Summary : .hisat2.featureCounts.txt.summary                ||
+||              Annotation : dmel-all-r6.39.gtf (GTF)                         ||
+||      Dir for temp files : results/pooled//gene-expression                  ||
+||                                                                            ||
+||                 Threads : 8                                                ||
+||                   Level : meta-feature level                               ||
+||              Paired-end : no                                               ||
+||      Multimapping reads : not counted                                      ||
+|| Multi-overlapping reads : not counted                                      ||
+||   Min overlapping bases : 1                                                ||
+||                                                                            ||
+\\============================================================================//
+
+//================================= Running ==================================\\
+||                                                                            ||
+|| Load annotation file dmel-all-r6.39.gtf ...                                ||
+||    Features : 189233                                                       ||
+||    Meta-features : 17611                                                   ||
+||    Chromosomes/contigs : 25                                                ||
+||                                                                            ||
+|| Process BAM file .hisat2.bam...                                            ||
+||    Single-end reads are included.                                          ||
+||    Total alignments : 33735416                                             ||
+||    Successfully assigned alignments : 27920931 (82.8%)                     ||
+||    Running time : 0.10 minutes                                             ||
+||                                                                            ||
+|| Write the final count table.                                               ||
+|| Write the read assignment summary.                                         ||
+||                                                                            ||
+|| Summary of counting results can be found in file "results/pooled//gene-ex  ||
+|| pression/.hisat2.featureCounts.txt.summary"                                ||
+||                                                                            ||
+\\============================================================================//
+
+Saved transcript counts to  results/pooled//gene-expression/.hisat2.featureCounts.txt
+---------------------
+DONE.
